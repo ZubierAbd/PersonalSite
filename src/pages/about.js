@@ -14,7 +14,11 @@ const AboutPage = () => {
 
         <p>
           I am also an internationally published short story author, hailing
-          from Bangladesh 🇧🇩.
+          from Bangladesh{" "}
+          <span role="img" aria-label="bangladeshi-flag">
+            🇧🇩
+          </span>
+          .
         </p>
       </div>
     </Layout>
