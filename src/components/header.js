@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <nav style={{ background: `#ABD` }} className="border fixed split-nav">
+  <nav style={{ background: `#9AC` }} className="border fixed split-nav">
     <div style={{ textDecoration: `none` }} className="nav-brand">
       <h3>
         {" "}
@@ -32,7 +32,7 @@ const Header = ({ siteTitle }) => (
           </li>
           <li>
             {" "}
-            <Link>About</Link>
+            <Link to="/about">About</Link>
           </li>
         </ul>
       </div>
