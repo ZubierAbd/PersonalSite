@@ -22,7 +22,7 @@ const Header = ({ siteTitle }) => (
       <div className="collapsible-body">
         <ul style={{ margin: `15 0` }} className="inline">
           <li>
-            <Link>Blog</Link>
+            <Link to="/blog">Blog</Link>
           </li>
           <li>
             <Link>Writing</Link>
