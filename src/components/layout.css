@@ -620,3 +620,11 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.centered {
+  text-align: center;
+}
+
+.justified {
+  text-align: justify;
+}

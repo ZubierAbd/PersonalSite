@@ -17,7 +17,7 @@ const blogPostTemplate = ({ data }) => {
   }
   return (
     <div>
-      <Layout>
+      <Layout style={{ textAlign: `left` }}>
         <h2>{post.frontmatter.title}</h2>
         <h4>
           Posted by {post.frontmatter.author} on {post.frontmatter.date}
