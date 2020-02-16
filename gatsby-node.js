@@ -1,14 +1,9 @@
 const path = require("path")
-const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
   const blogPostTemplate = path.resolve("./src/templates/blogPost.js")
-  console.log(blogPostTemplate)
-  console.log("check here Zubier")
-  //
-  //
-  //
+  const storyPostTemplate = path.resolve("./src/templates/storyPost.js")
   return await graphql(`
     query LoadPagesQuery {
       allMarkdownRemark {
@@ -21,6 +16,7 @@ exports.createPages = async ({ graphql, actions }) => {
               title
               date
               author
+              type
             }
           }
         }
@@ -36,13 +32,24 @@ exports.createPages = async ({ graphql, actions }) => {
 
     posts.forEach(edge => {
       let path = edge.node.frontmatter.path
-      createPage({
-        path,
-        component: blogPostTemplate,
-        context: {
+      let type = edge.node.frontmatter.type
+      if (type != null && type == "story") {
+        createPage({
           path,
-        },
-      })
+          component: storyPostTemplate,
+          context: {
+            path,
+          },
+        })
+      } else {
+        createPage({
+          path,
+          component: blogPostTemplate,
+          context: {
+            path,
+          },
+        })
+      }
     })
   })
 }

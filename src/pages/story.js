@@ -1,12 +1,10 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import Layout from "../components/layout" //need to replace this with story and article specific layout
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-
-const BlogPage = ({ data }) => (
+const storyPage = ({ data }) => (
   <Layout>
-    <h1>Latest Posts</h1>
+    <h1>Latest Stories</h1>
     {data.allMarkdownRemark.edges.map(post => (
       <div key={post.node.id}>
         <h3>{post.node.frontmatter.title}</h3>
@@ -26,9 +24,9 @@ const BlogPage = ({ data }) => (
   </Layout>
 )
 
-export const BlogQuery = graphql`
-  query blogIndexQuery {
-    allMarkdownRemark(filter: { frontmatter: { type: { ne: "story" } } }) {
+export const StoryQuery = graphql`
+  query storyIndexQuery {
+    allMarkdownRemark(filter: { frontmatter: { type: { eq: "story" } } }) {
       edges {
         node {
           id
@@ -45,4 +43,4 @@ export const BlogQuery = graphql`
   }
 `
 
-export default BlogPage
+export default storyPage

@@ -5,6 +5,7 @@ const footerStyles = {
   width: `100vw`,
   background: `#222`,
   color: `white`,
+  padding: `20px`,
 }
 
 const Footer = () => {

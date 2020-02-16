@@ -36,5 +36,12 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `articles`,
+        path: `${__dirname}/src/pages/articles`,
+      },
+    },
   ],
 }

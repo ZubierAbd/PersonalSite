@@ -3,6 +3,8 @@ path: "post-three"
 date: "16-02-2020"
 title: "Creating a simple Angular App"
 author: "Zubier Abdullah"
+type: "article"
+summary: "A simple Angular Tutorial written when I was just learning the language"
 ---
 
 ![unsplash](https://miro.medium.com/max/6000/0*Au3XXEWgCpkswvsU)

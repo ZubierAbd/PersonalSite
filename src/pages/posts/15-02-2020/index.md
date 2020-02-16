@@ -3,6 +3,8 @@ path: "post-one"
 date: "15-02-2020"
 title: "The onus behind this site"
 author: "Zubier Abdullah"
+type: "article"
+summary: "Just a simple post about the onus of this blog and the website in general. I've been writing for several years now. As someone who was not that outspoken growing up, writing offered me a way to make sense of things and to pour my thoughts out in a cohesive and interesting manner."
 ---
 
 Just a simple post about the onus of this blog and the website in general. I've been writing for several years now. As someone who was not that outspoken growing up, writing offered me a way to make sense of things and to pour my thoughts out in a cohesive and interesting manner.
