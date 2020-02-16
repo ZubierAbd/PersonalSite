@@ -1,12 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
-import { render } from "react-dom"
 
 const blogPostTemplate = ({ data }) => {
   let post = data.markdownRemark
-  console.log(data)
-  console.log("CHEKER HERE")
   if (post == null) {
     return (
       <div>

@@ -33,9 +33,8 @@ exports.createPages = async ({ graphql, actions }) => {
 
     ///Create blog post pages
     const posts = result.data.allMarkdownRemark.edges
+
     posts.forEach(edge => {
-      console.log(edge.node.frontmatter.path)
-      console.log("chck here zubier")
       let path = edge.node.frontmatter.path
       createPage({
         path,
