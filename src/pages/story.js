@@ -1,19 +1,31 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import "../components/styles.css"
-import { FaSkull, FaCity, FaSnowflake } from "react-icons/fa"
+import {
+  FaSkull,
+  FaCity,
+  FaSnowflake,
+  FaBug,
+  FaCamera,
+  FaHeartbeat,
+} from "react-icons/fa"
 
 import Layout from "../components/layout" //need to replace this with story and article specific layout
 
 const assignIcon = name => {
   switch (name) {
     case "faSnowflake":
-      return <FaSnowflake></FaSnowflake>
+      return <FaSnowflake />
     case "faCity":
-      return <FaCity></FaCity>
+      return <FaCity />
     case "faSkull":
-      return <FaSkull></FaSkull>
-
+      return <FaSkull />
+    case "bug":
+      return <FaBug />
+    case "camera":
+      return <FaCamera />
+    case "heartbeat":
+      return <FaHeartbeat />
     default:
       return null
   }
