@@ -1,7 +1,23 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import "../components/styles.css"
+import { FaSkull, FaCity, FaSnowflake } from "react-icons/fa"
+
 import Layout from "../components/layout" //need to replace this with story and article specific layout
+
+const assignIcon = name => {
+  switch (name) {
+    case "faSnowflake":
+      return <FaSnowflake></FaSnowflake>
+    case "faCity":
+      return <FaCity></FaCity>
+    case "faSkull":
+      return <FaSkull></FaSkull>
+
+    default:
+      return null
+  }
+}
 
 const storyPage = ({ data }) => (
   <Layout>
@@ -14,6 +30,15 @@ const storyPage = ({ data }) => (
               style={{ background: `none` }}
               to={post.node.frontmatter.path}
             >
+              <span
+                style={{
+                  marginRight: `10px`,
+                  bottom: `-6px`,
+                  position: `relative`,
+                }}
+              >
+                {assignIcon(post.node.frontmatter.icon)}
+              </span>
               {post.node.frontmatter.title}
             </Link>
           </h5>
