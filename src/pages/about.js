@@ -4,7 +4,7 @@ import SEO from "../components/seo"
 const AboutPage = () => {
   return (
     <Layout>
-      <div>
+      <div style={{ minHeight: `375px` }}>
         <h1>About Me</h1>
 
         <p style={{}}>
