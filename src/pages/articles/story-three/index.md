@@ -3,6 +3,7 @@ path: "winters-tale"
 date: "16-02-2020"
 title: "A Winter's Tale"
 author: "Zubier Abdullah"
+icon: "faSnowflake"
 type: "story"
 summary: "A Winter’s Tale tells the story of the last moments in a couple’s relationship – the couple, Naima and  Nuhash, two students who had come to Canada for higher education and tried to make a life happen. While desperately trying to navigate the storms of young adulthood, Naima realizes that she cannot come to build a life in Canada when her heart lay in her homeland. The story describes two flawed people, trying their best to avoid mutually assured destruction and the heartbreak that comes when goals become irreconcilable. The key themes in this story are about loneliness, the fragility and irrationality that come from being in love and the sad truth that, sometimes, love is not enough, that the world will not make things easy. "
 ---

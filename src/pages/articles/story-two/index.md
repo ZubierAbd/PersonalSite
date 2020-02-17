@@ -3,6 +3,7 @@ path: "anatomy"
 date: "16-02-2020"
 title: "Anatomy"
 author: "Zubier Abdullah"
+icon: "faSkull"
 type: "story"
 summary: "Anatomy is a short story written for a friend and describes one of my favourite characters – the girl with no name. I won’t spoil the story here – it is short enough that it can be read in a few minutes. The story is a young girl’s conquest of an inhuman monster, a young bespectacled Beowulf slaying her own Grendel."
 ---

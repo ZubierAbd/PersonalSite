@@ -4,6 +4,7 @@ date: "16-02-2020"
 title: "Creating a simple Angular App"
 author: "Zubier Abdullah"
 type: "article"
+icon: ""
 summary: "A simple Angular Tutorial written when I was just learning the language"
 ---
 

@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "../components/styles.css"
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -14,6 +15,15 @@ const IndexPage = () => (
         <p>Welcome to my little corner of the internet</p>
         <p>
           I am a fullstack developer working in <kbd>Toronto</kbd>
+        </p>
+        <p>I'm also an internationally published fiction writer</p>
+        <p>
+          get in touch with me at:{" "}
+          <kbd>
+            <a style={{ color: `white` }} href="mailto:zubierabd@gmail.com">
+              zubierabd@gmail.com
+            </a>
+          </kbd>
         </p>
       </div>
     </div>

@@ -49,6 +49,7 @@ export const StoryQuery = graphql`
             date
             title
             summary
+            icon
           }
         }
       }

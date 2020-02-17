@@ -3,6 +3,7 @@ path: "a-nomads-home"
 date: "16-02-2020"
 title: "A Nomad's Home"
 author: "Zubier Abdullah"
+icon: "faCity"
 type: "story"
 summary: "A Nomad’s Home was my first published story and one of my favourites overall. Nomad’s concerns two brothers – Abu and Tanim, orphans who have to rely on their wits to survive the cities of Bangladesh. They steal, they forage and they do their best to make sure they never get caught. This story is a story about family, of brotherhood, of knowing that home is not a place, it is people."
 ---
