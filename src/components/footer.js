@@ -6,6 +6,8 @@ const footerStyles = {
   background: `#222`,
   color: `white`,
   padding: `20px`,
+  position: `relative`,
+  bottom: 0,
 }
 
 const Footer = () => {

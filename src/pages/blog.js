@@ -9,17 +9,29 @@ const BlogPage = ({ data }) => (
     <h1>Latest Posts</h1>
     {data.allMarkdownRemark.edges.map(post => (
       <div key={post.node.id}>
-        <h3>{post.node.frontmatter.title}</h3>
-        <small>
-          Posted by {post.node.frontmatter.author} on{" "}
-          {post.node.frontmatter.date}
-        </small>
-        <br></br>
-        <br></br>
-        <p>{post.node.frontmatter.summary}</p>
-        <Link to={post.node.frontmatter.path}>Check it out</Link>
-        <br></br>
-        <br></br>
+        <article className="article">
+          <h5 style={{ marginBottom: `0` }} className="article-title">
+            <Link
+              style={{ background: `none`, color: `#323232` }}
+              to={post.node.frontmatter.path}
+            >
+              {post.node.frontmatter.title}
+            </Link>
+          </h5>
+          <h4 className="article-meta">
+            Posted by {post.node.frontmatter.author} on{" "}
+            {post.node.frontmatter.date}
+          </h4>
+          <p>{post.node.frontmatter.summary}</p>{" "}
+          <button>
+            <Link
+              style={{ background: `none` }}
+              to={post.node.frontmatter.path}
+            >
+              Read more
+            </Link>
+          </button>
+        </article>
         <hr></hr>
       </div>
     ))}

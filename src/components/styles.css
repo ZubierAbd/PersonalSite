@@ -5,3 +5,16 @@
 .justified {
   text-align: justify;
 }
+
+.no-text-decoration-Link {
+  background-color: none;
+}
+
+a {
+  background: none;
+  color: #333333;
+}
+
+a:visited {
+  color: #111111;
+}

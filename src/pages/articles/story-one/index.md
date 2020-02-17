@@ -1,5 +1,5 @@
 ---
-path: "story-one"
+path: "a-nomads-home"
 date: "16-02-2020"
 title: "A Nomad's Home"
 author: "Zubier Abdullah"

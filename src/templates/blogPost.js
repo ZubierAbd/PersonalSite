@@ -10,7 +10,10 @@ const blogPostTemplate = ({ data }) => {
         <Layout>
           <p>Sorry</p>
           <p>This stupid page isn't loading for some reason</p>
-          <Link to="/blog">Go back anyway</Link>
+          <button>
+            {" "}
+            <Link to="/blog">Go back anyway</Link>
+          </button>
         </Layout>
       </div>
     )
@@ -23,7 +26,10 @@ const blogPostTemplate = ({ data }) => {
           Posted by {post.frontmatter.author} on {post.frontmatter.date}
         </h4>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <Link to="/blog">Go back</Link>
+        <button>
+          {" "}
+          <Link to="/blog">Go back</Link>
+        </button>
       </Layout>
     </div>
   )
