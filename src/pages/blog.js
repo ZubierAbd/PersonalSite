@@ -1,18 +1,19 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import { FaAngular, FaReact, FaSmile } from "react-icons/fa"
+import { FaAngular, FaReact, FaRegSmile, FaRegNewspaper } from "react-icons/fa"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const assignIcon = name => {
-  console.log(name)
   switch (name) {
     case "react":
       return <FaReact />
     case "angular":
       return <FaAngular />
     case "smile":
-      return <FaSmile />
+      return <FaRegSmile />
+    case "newspaper":
+      return <FaRegNewspaper />
     default:
       return null
   }
