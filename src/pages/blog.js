@@ -1,8 +1,22 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-
+import { FaAngular, FaReact, FaSmile } from "react-icons/fa"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
+const assignIcon = name => {
+  console.log(name)
+  switch (name) {
+    case "react":
+      return <FaReact />
+    case "angular":
+      return <FaAngular />
+    case "smile":
+      return <FaSmile />
+    default:
+      return null
+  }
+}
 
 const BlogPage = ({ data }) => (
   <Layout>
@@ -15,6 +29,16 @@ const BlogPage = ({ data }) => (
               style={{ background: `none`, color: `#323232` }}
               to={post.node.frontmatter.path}
             >
+              {" "}
+              <span
+                style={{
+                  marginRight: `10px`,
+                  bottom: `-6px`,
+                  position: `relative`,
+                }}
+              >
+                {assignIcon(post.node.frontmatter.icon)}
+              </span>
               {post.node.frontmatter.title}
             </Link>
           </h5>
@@ -50,6 +74,7 @@ export const BlogQuery = graphql`
             date
             title
             summary
+            icon
           }
         }
       }

@@ -4,7 +4,7 @@ date: "15-02-2020"
 title: "Learning the basics of ReactJS"
 author: "Zubier Abdullah"
 type: "article"
-icon: ""
+icon: "react"
 summary: "A beginners tutorial written on React when I was just learning the language...long long ago in a galaxy far far away"
 ---
 
