@@ -628,3 +628,8 @@ pre tt:after {
 .justified {
   text-align: justify;
 }
+
+.story-icon:hover {
+  color: red;
+  border: 1px solid red;
+}

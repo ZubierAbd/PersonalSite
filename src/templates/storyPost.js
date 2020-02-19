@@ -1,6 +1,33 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
+import {
+  FaSkull,
+  FaCity,
+  FaSnowflake,
+  FaBug,
+  FaCamera,
+  FaHeartbeat,
+} from "react-icons/fa"
+
+const assignIcon = name => {
+  switch (name) {
+    case "faSnowflake":
+      return <FaSnowflake />
+    case "faCity":
+      return <FaCity />
+    case "faSkull":
+      return <FaSkull />
+    case "bug":
+      return <FaBug />
+    case "camera":
+      return <FaCamera />
+    case "heartbeat":
+      return <FaHeartbeat />
+    default:
+      return null
+  }
+}
 
 const storyPostTemplate = ({ data }) => {
   let post = data.markdownRemark
@@ -9,11 +36,11 @@ const storyPostTemplate = ({ data }) => {
       <div>
         <Layout>
           <p>Sorry</p>
-          <p>This stupid page isn't loading for some reason</p>
-          <button>
+          <p>This stupid page isn't loading for some reason</p>{" "}
+          <Link to="/blog">
             {" "}
-            <Link to="/blog">Go back anyway</Link>
-          </button>
+            <button>Go back anyway </button>
+          </Link>
         </Layout>
       </div>
     )
@@ -21,7 +48,20 @@ const storyPostTemplate = ({ data }) => {
   return (
     <div>
       <Layout style={{ textAlign: `left` }}>
-        <h2>{post.frontmatter.title}</h2>
+        <h2>
+          {" "}
+          <span
+            className="story-icon"
+            style={{
+              marginRight: `10px`,
+              bottom: `-6px`,
+              position: `relative`,
+            }}
+          >
+            {assignIcon(post.frontmatter.icon)}
+          </span>
+          {post.frontmatter.title}
+        </h2>
         <h4>
           Posted by {post.frontmatter.author} on {post.frontmatter.date}
         </h4>
@@ -48,6 +88,7 @@ export const blogQuery = graphql`
         title
         author
         date
+        icon
       }
     }
   }

@@ -48,14 +48,10 @@ const BlogPage = ({ data }) => (
             {post.node.frontmatter.date}
           </h4>
           <p>{post.node.frontmatter.summary}</p>{" "}
-          <button>
-            <Link
-              style={{ background: `none` }}
-              to={post.node.frontmatter.path}
-            >
-              Read more
-            </Link>
-          </button>
+          <Link style={{ background: `none` }} to={post.node.frontmatter.path}>
+            {" "}
+            <button>Read more </button>
+          </Link>
         </article>
         <hr></hr>
       </div>
