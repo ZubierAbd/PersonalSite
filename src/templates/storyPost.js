@@ -9,6 +9,7 @@ import {
   FaCamera,
   FaHeartbeat,
 } from "react-icons/fa"
+import { GiSnakeBite } from "react-icons/gi"
 
 const assignIcon = name => {
   switch (name) {
@@ -24,6 +25,8 @@ const assignIcon = name => {
       return <FaCamera />
     case "heartbeat":
       return <FaHeartbeat />
+    case "snake":
+      return <GiSnakeBite />
     default:
       return null
   }
