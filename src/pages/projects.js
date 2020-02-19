@@ -3,8 +3,8 @@ import Layout from "../components/layout"
 
 const ProjectPage = () => (
   <Layout>
-    <div>
-      <h1>This part of the site is under construction</h1>
+    <div style={{ wordBreak: `break-word  ` }}>
+      <h3>This part of the site is under construction</h3>
     </div>
     <p>
       Sorry.... I will be working on this part of the website next and it should

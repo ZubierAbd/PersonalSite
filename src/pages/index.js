@@ -20,7 +20,10 @@ const IndexPage = () => (
         <p>
           get in touch with me at:{" "}
           <kbd>
-            <a style={{ color: `white` }} href="mailto:zubierabd@gmail.com">
+            <a
+              style={{ color: `white`, cursor: `pointer` }}
+              href="mailto:zubierabd@gmail.com"
+            >
               zubierabd@gmail.com
             </a>
           </kbd>
