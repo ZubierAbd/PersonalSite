@@ -8,6 +8,8 @@ type: "story"
 summary: "Darker Possibilities is a horror story – pure and simple but it makes use of a number of literary techniques which I have shamelessly stolen from much better writers than myself. The story concerns an educated protagonist named Nikhesh, who is living a life of exile in Dublin. Over a beer or several, he speaks to the reader and tells them of his life and how he came to be so far from home. The key themes of this story are guilt and regret, of the inconsolable knowledge that one gets after transcribing one’s life and knowing exactly where mistakes were made.  "
 ---
 
+_Originally published in [Robbed of Sleep Vol. 5](https://www.amazon.ca/Robbed-Sleep-Vol-Stories-Anthology-ebook/dp/B01LZIZ25S) in December 2016_
+
 All of this happened and I wish, how deeply I wish, it had not. Sometimes on long, dark nights staring up at the fan in my little flat on the east side, all I am left with are my regrets. Everything that happened back then was my fault and I can see the intervening years between pass by like mile markers on the highway.
 
 Shall we have a beer then? I have heard that Edgar serves the finest beer in all of Dublin and I would like to test that claim.

@@ -58,3 +58,8 @@ a:visited {
     transform: translate(1px, -2px) rotate(-1deg);
   }
 }
+
+.header-correct {
+  background-color: #333333;
+  color: white;
+}
