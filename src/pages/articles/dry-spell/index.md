@@ -75,7 +75,11 @@ Different societies tolerated different things from the creeps in their populati
 The men here, while disconcerting in the way they looked at you as though they would devour you, stuck to only that. Back in Bangladesh, an average jaunt outside would lead her to being catcalled, people attempting to grope her and some mild mannered stalking. On late nights, she would get calls with nothing but the sound of heavy breathing.
 
 A darting glance and a shuffle of movement from the corner told her that her admirer was now going to make his move. She didn’t wait for it though – fuck it. I am done being sought after by these dime store Lotharios, she said inwardly.
-“HithereIcouldn’thelpbutnoticethatyouwerereadingThomasErdogian…………..andwaswonderingifIcouldaskyouwhat………youthoughtaboutit.”
+
+_“HithereIcouldn’thelp
+butnoticethatyouwere
+readingThomasErdogian…………..andwaswonderingifIcould..ask
+youwhat………youthoughtaboutit.”_
 
 He said it like that and that earnest expression on his face and the fact that he was completely not the guy that she had spent the better part of the last hour surreptitiously observing him surreptitiously observing her, made her almost gasp in surprise. This was someone new –hair the color of coal, his body built like a rocket. He looked younger than the normally mid twenty-ish guy that she would like herself to be seen with. He dressed different – his clothes reeked of a lack of pretension.
 
