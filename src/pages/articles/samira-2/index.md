@@ -1,7 +1,7 @@
 ---
 path: "Samira-story1"
 date: "18-02-2020"
-title: "Samira's Story Part 1"
+title: "Samira's Story Part 2"
 author: "Zubier Abdullah"
 icon: "fancyPen"
 type: "story"

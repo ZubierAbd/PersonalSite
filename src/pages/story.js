@@ -9,6 +9,7 @@ import {
   FaCamera,
   FaHeartbeat,
   FaPenFancy,
+  FaBirthdayCake,
 } from "react-icons/fa"
 import { GiSnakeBite } from "react-icons/gi"
 
@@ -32,6 +33,8 @@ const assignIcon = name => {
       return <GiSnakeBite />
     case "fancyPen":
       return <FaPenFancy />
+    case "birthdayCake":
+      return <FaBirthdayCake />
     default:
       return null
   }
