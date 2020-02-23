@@ -1,4 +1,4 @@
----
+<!-- ---
 path: "java-jargon"
 date: "20-02-2020"
 title: "Java Jargon"
@@ -6,7 +6,7 @@ author: "Zubier Abdullah"
 icon: "Java"
 type: "tutorial"
 summary: "Basic Java Jargon I am keeping in a handy place in case I ever need it"
----
+--- -->
 
 Fairly basic rundown of some Java terminology that I have all but forgotten (well not all since a lot of this stuff translates pretty one for one to Typescript and the syntactic sugar that is JS classes)
 
