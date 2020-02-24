@@ -54,7 +54,7 @@ const storyPage = ({ data }) => (
               <span
                 className="story-icon"
                 style={{
-                  marginRight: `10px`,
+                  marginRight: `15px`,
                   bottom: `-6px`,
                   position: `relative`,
                 }}

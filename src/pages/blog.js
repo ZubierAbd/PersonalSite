@@ -33,7 +33,7 @@ const BlogPage = ({ data }) => (
               {" "}
               <span
                 style={{
-                  marginRight: `10px`,
+                  marginRight: `15px`,
                   bottom: `-6px`,
                   position: `relative`,
                 }}

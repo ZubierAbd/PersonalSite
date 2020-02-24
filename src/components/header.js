@@ -4,7 +4,7 @@ import React from "react"
 
 const Header = ({ siteTitle }) => (
   <nav style={{ background: `#89b` }} className="border fixed split-nav">
-    <div style={{ textDecoration: `none` }} className="nav-brand">
+    <div style={{ textDecoration: `none` }} className="nav-brand white-text">
       <h3>
         {" "}
         <Link to="/">{siteTitle}</Link>

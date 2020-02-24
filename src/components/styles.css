@@ -63,3 +63,7 @@ a:visited {
   background-color: #333333;
   color: white;
 }
+
+.white-text {
+  color: white !important;
+}

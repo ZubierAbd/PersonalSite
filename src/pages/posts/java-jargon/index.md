@@ -1,4 +1,4 @@
-<!-- ---
+---
 path: "java-jargon"
 date: "20-02-2020"
 title: "Java Jargon"
@@ -6,7 +6,7 @@ author: "Zubier Abdullah"
 icon: "Java"
 type: "tutorial"
 summary: "Basic Java Jargon I am keeping in a handy place in case I ever need it"
---- -->
+---
 
 Fairly basic rundown of some Java terminology that I have all but forgotten (well not all since a lot of this stuff translates pretty one for one to Typescript and the syntactic sugar that is JS classes)
 
@@ -19,5 +19,48 @@ A class describes a particular kind of object and contains related methods and d
 Classes are used to create objects which are instances of those classes .In layman's terms this means something like the following
 
 ```
-class Animal
+class Animal {
+    private String name;
+
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+
+public void printName(){
+    System.out.println(this.name);
+}
+}
+```
+
+**Constructor**
+
+This is a special type of instance method that is run when a new object is created using that class. In Java, constructors have the same name as the class they are in and have no return value.
+
+```
+public class Animal(){
+private String name;
+    public Animal(String name){
+        this.name = name;
+    }
+}
+```
+
+**Declaration**
+
+A statement that creates a variable, method or class identifier but doesn't necessarily allocate memory. i.e. you are saying that this thing exists but you aren't exactly saying that this thing actually exists in memory.
+
+```
+int age;
+//The variable age is declared
+
+Animal Fido;
+//The object Fido is declared and is said to be of class Animal
+
+public abstract class myAbstractClass(){
+    public abstract myMethod()
+}
+//Abstract methods can be declared but not defined.
 ```
