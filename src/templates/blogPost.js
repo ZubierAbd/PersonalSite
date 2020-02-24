@@ -1,6 +1,30 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
+import {
+  FaAngular,
+  FaReact,
+  FaRegSmile,
+  FaRegNewspaper,
+  FaJava,
+} from "react-icons/fa"
+
+const assignIcon = name => {
+  switch (name) {
+    case "react":
+      return <FaReact />
+    case "angular":
+      return <FaAngular />
+    case "smile":
+      return <FaRegSmile />
+    case "newspaper":
+      return <FaRegNewspaper />
+    case "Java":
+      return <FaJava />
+    default:
+      return null
+  }
+}
 
 const blogPostTemplate = ({ data }) => {
   let post = data.markdownRemark
@@ -21,7 +45,19 @@ const blogPostTemplate = ({ data }) => {
   return (
     <div>
       <Layout style={{ textAlign: `left` }}>
-        <h2>{post.frontmatter.title}</h2>
+        <h2>
+          {" "}
+          <span
+            style={{
+              marginRight: `15px`,
+              bottom: `-6px`,
+              position: `relative`,
+            }}
+          >
+            {assignIcon(post.frontmatter.icon)}
+          </span>
+          {post.frontmatter.title}
+        </h2>
         <h4>
           Posted by {post.frontmatter.author} on {post.frontmatter.date}
         </h4>
@@ -48,6 +84,7 @@ export const blogQuery = graphql`
         title
         author
         date
+        icon
       }
     }
   }

@@ -1,6 +1,12 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import { FaAngular, FaReact, FaRegSmile, FaRegNewspaper } from "react-icons/fa"
+import {
+  FaAngular,
+  FaReact,
+  FaRegSmile,
+  FaRegNewspaper,
+  FaJava,
+} from "react-icons/fa"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -14,6 +20,8 @@ const assignIcon = name => {
       return <FaRegSmile />
     case "newspaper":
       return <FaRegNewspaper />
+    case "Java":
+      return <FaJava></FaJava>
     default:
       return null
   }
