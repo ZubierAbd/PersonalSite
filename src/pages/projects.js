@@ -1,8 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const ProjectPage = () => (
   <Layout>
+    <SEO title="Projects" />
     <div style={{ wordBreak: `break-word  ` }}>
       <h3>This part of the site is under construction</h3>
     </div>

@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
 import {
   FaSkull,
   FaCity,
@@ -57,6 +58,7 @@ const storyPostTemplate = ({ data }) => {
   return (
     <div>
       <Layout style={{ textAlign: `left` }}>
+        <SEO title={post.frontmatter.title} />
         <h2>
           {" "}
           <span

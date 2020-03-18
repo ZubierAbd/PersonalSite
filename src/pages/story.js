@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import SEO from "../components/seo"
 import "../components/styles.css"
 import {
   FaSkull,
@@ -42,6 +43,7 @@ const assignIcon = name => {
 
 const storyPage = ({ data }) => (
   <Layout>
+    <SEO title="All Stories" />
     <h1 style={{ marginBottom: `0` }}>Latest Stories</h1>
     {data.allMarkdownRemark.edges.map(post => (
       <div key={post.node.id}>

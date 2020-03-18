@@ -1,9 +1,18 @@
 import React from "react"
 import Layout from "../components/layout"
+import TechCard from "../components/techCard"
+import { DiJavascript1 } from "react-icons/di"
 import SEO from "../components/seo"
+
+const jsObject = {
+  name: "javascript",
+  icon: <DiJavascript1 />,
+}
+
 const AboutPage = () => {
   return (
     <Layout>
+      <SEO title="About Zubier" />
       <div style={{ minHeight: `375px` }}>
         <h1>About Me</h1>
 
@@ -20,6 +29,7 @@ const AboutPage = () => {
           </span>
           .
         </p>
+        <TechCard data={jsObject} />
       </div>
     </Layout>
   )
