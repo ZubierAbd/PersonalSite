@@ -46,7 +46,7 @@ const blogPostTemplate = ({ data }) => {
   return (
     <div>
       <Layout style={{ textAlign: `left` }}>
-        <SEO title={post.node.frontmatter.title} />
+        <SEO title={post.frontmatter.title} />
         <h2>
           {" "}
           <span

@@ -1,5 +1,4 @@
 import React from "react"
-
 import SpheresImage from "../images/spheres.png"
 
 const resolveImage = name => {
