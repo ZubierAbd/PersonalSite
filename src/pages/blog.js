@@ -6,6 +6,7 @@ import {
   FaRegSmile,
   FaRegNewspaper,
   FaJava,
+  FaCss3,
 } from "react-icons/fa"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -22,6 +23,8 @@ const assignIcon = name => {
       return <FaRegNewspaper />
     case "Java":
       return <FaJava></FaJava>
+    case "CSS":
+      return <FaCss3></FaCss3>
     default:
       return null
   }

@@ -4,7 +4,7 @@ date: "04-05-2020"
 title: "CSS Flexbox Reference"
 author: "Zubier Abdullah"
 type: "article"
-icon: "angular"
+icon: "CSS"
 summary: "A bunch of examples and references for CSS flexbox"
 ---
 
@@ -24,8 +24,6 @@ So I thought I would write a small reference for CSS flexbox and maybe expand up
 |                 | space-evenly  |                             mix of the last two |
 
 While the first three properties are super self explanatory, I would like to draw your attention to the last three. Specifically the difference between space-evenly, space-around and space-between. For space-between, the style maximizes the distance between the objects. Space around maximizes the distance around the objects and away from the sides and space-evenly combines both with an even distance between sides of the viewport and the objects themselves.
-
-![horizontal]('../../../images/horizontal.png)
 
 ###Moving Things vertically
 

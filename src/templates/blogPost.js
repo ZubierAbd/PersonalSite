@@ -8,6 +8,7 @@ import {
   FaRegSmile,
   FaRegNewspaper,
   FaJava,
+  FaCss3,
 } from "react-icons/fa"
 
 const assignIcon = name => {
@@ -22,6 +23,8 @@ const assignIcon = name => {
       return <FaRegNewspaper />
     case "Java":
       return <FaJava />
+    case "CSS":
+      return <FaCss3></FaCss3>
     default:
       return null
   }

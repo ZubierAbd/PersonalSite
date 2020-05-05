@@ -1,9 +1,6 @@
 import React from "react"
-import SpheresImage from "../images/spheres.png"
-
-const resolveImage = name => {
-  return <SpheresImage />
-}
+import Img from "gatsby-image"
+import { graphql } from "gatsby"
 
 const Project = props => {
   let data = props.object
@@ -18,8 +15,6 @@ const Project = props => {
       class="card"
       style={{ width: "33%", margin: "20px", border: "1px solid #454545" }}
     >
-      {/* <div>{resolveImage(name)}</div> */}
-
       <div class="card-body">
         <h4 class="card-title">{name}</h4>
         <h5 class="card-subtitle">{technology}</h5>
