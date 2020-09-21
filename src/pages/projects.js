@@ -35,7 +35,7 @@ const NormalProjectPage = () => {
     URL: "https://tomato-timer-abd.herokuapp.com/",
     github: 'https://github.com/ZubierAbd/TomatoTimerReact',
     description:
-      "Small project I have made using React to practice using React hooks ",
+      "Small project I have made using React to practice using React hooks. This is based on the Tomato Timer and works the same way. You click on a button, a timer starts for 25 mins alerting you ",
   }
 
 
@@ -45,7 +45,7 @@ const NormalProjectPage = () => {
     URL: "https://dota-hangman.herokuapp.com/",
     github: 'https://github.com/ZubierAbd/Dota2Hangman',
     description:
-      "Hangman clone based on the video game Dota 2 - This is a simple hangman game which you can play on your browser based on the dota 2 hereos.",
+      "Hangman clone based on the video game Dota 2 - This is a simple hangman game which you can play on your browser based on the Dota 2 hereos.",
   }
 
   let data5 = {
@@ -57,7 +57,16 @@ const NormalProjectPage = () => {
       "Modified TicTacToe game I made. In this version the board has 4*4 rows and columns to make the game more dynamic.",
   }
 
-  let projectArray = [data1, data2, data3, data4, data5]
+  let data6 = {
+    name: "Pokedex",
+    tech: "React",
+    URL: "https://pokedex-zubierabd.herokuapp.com/",
+    github: '',
+    description:
+      "Pokedex created using React JS using the PokeApi.",
+  }
+
+  let projectArray = [data1, data2, data3, data4, data5, data6]
   return (
     <div style={{ margin: '20px' }}>
       <div style={{ display: "flex", flexWrap: "wrap" }}>
