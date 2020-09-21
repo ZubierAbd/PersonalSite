@@ -16,21 +16,51 @@ const NormalProjectPage = () => {
     name: "Spheres",
     tech: "Angular",
     URL: "https://spheres-2411a.firebaseapp.com/",
+    github: '',
     description:
-      "This is a simple site created using Angular showcasing some fun animations and the usage of music.",
+      "This is a simple site created using Angular showcasing some fun animations and the usage of music. Please wait a moment for the sound files to load before you start clicking them",
   }
   let data2 = {
     name: "Portfolio",
     tech: "Angular",
     URL: "https://saima-ef594.firebaseapp.com/",
+    github: '',
     description:
       "This is a portfolio site I have created for a friend using Angular. The Angular ",
   }
 
-  let projectArray = [data1, data2]
+  let data3 = {
+    name: "Tomato Timer",
+    tech: "React",
+    URL: "https://tomato-timer-abd.herokuapp.com/",
+    github: 'https://github.com/ZubierAbd/TomatoTimerReact',
+    description:
+      "Small project I have made using React to practice using React hooks ",
+  }
+
+
+  let data4 = {
+    name: "Dota Hangman",
+    tech: "React",
+    URL: "https://dota-hangman.herokuapp.com/",
+    github: 'https://github.com/ZubierAbd/Dota2Hangman',
+    description:
+      "Hangman clone based on the video game Dota 2 - This is a simple hangman game which you can play on your browser based on the dota 2 hereos.",
+  }
+
+  let data5 = {
+    name: "React Tic Tac Toe x 5",
+    tech: "React",
+    URL: "https://tictactoe-react-x5.herokuapp.com/",
+    github: 'https://github.com/ZubierAbd/tic-tac-toeX5-react',
+    description:
+      "Modified TicTacToe game I made. In this version the board has 4*4 rows and columns to make the game more dynamic.",
+  }
+
+  let projectArray = [data1, data2, data3, data4, data5]
   return (
-    <div>
-      <div style={{ display: "flex" }}>
+    <div style={{ margin: '20px' }}>
+      <div style={{ display: "flex", flexWrap: "wrap" }}>
         {projectArray.map(ele => (
           <Project object={ele} />
         ))}
