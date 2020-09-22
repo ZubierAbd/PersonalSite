@@ -49,7 +49,7 @@ const NormalProjectPage = () => {
   }
 
   let data5 = {
-    name: "React Tic Tac Toe x 5",
+    name: "React Tic Tac Toe x 4",
     tech: "React",
     URL: "https://tictactoe-react-x5.herokuapp.com/",
     github: 'https://github.com/ZubierAbd/tic-tac-toeX5-react',

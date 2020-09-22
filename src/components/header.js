@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <nav style={{ background: `#52307c` }} className="border fixed split-nav">
+  <nav style={{ background: `rgba(82,48,124,0.85)` }} className="border fixed split-nav">
     <div style={{ textDecoration: `none` }} className="nav-brand white-text">
       <h3>
         {" "}
