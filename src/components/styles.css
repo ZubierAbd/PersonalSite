@@ -71,3 +71,13 @@ a:visited {
 nav a {
   border-bottom: #111111;
 }
+
+.tech-container{
+  display: flex;
+}
+
+.tech-container .techy {
+  width: 20vw;
+  
+  font-size: 55px;
+}

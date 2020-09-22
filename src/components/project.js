@@ -1,6 +1,4 @@
 import React from "react"
-import Img from "gatsby-image"
-import { graphql } from "gatsby"
 import spheresPhoto from '../images/spheres.png'
 import saimaPhoto from '../images/Saima.png'
 import Tomato from '../images/Tomato.png'
@@ -39,7 +37,7 @@ const Project = props => {
       class="card"
       style={{ width: "30%", margin: '10px', border: "1px solid #454545", alignContent: "center", textAlign: "center" }}
     >
-      <img alt={name} style={{ border: '1px solid #fff' }} src={choosePhoto(name)}></img>
+      <img alt={name} style={{ borderBottom: '1px solid #111' }} src={choosePhoto(name)}></img>
       <div class="card-body">
 
         <h4 class="card-title">{name}</h4>
