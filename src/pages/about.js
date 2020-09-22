@@ -35,6 +35,10 @@ const AboutPage = () => {
               <span className="techy"><FaAngular /><span> </span></span>
             </ul>
           </p></div>
+
+        <p>
+          <h4>Technologies I am learning or planning to learn</h4>
+        </p>
       </div>
     </Layout>
   )
