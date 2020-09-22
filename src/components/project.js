@@ -26,7 +26,7 @@ const Project = props => {
         return Tomato
       case "Dota Hangman":
         return Hangman
-      case "React Tic Tac Toe x 5":
+      case "React Tic Tac Toe x 4":
         return ticTac
       case "Pokedex":
         return pokemonPhoto
