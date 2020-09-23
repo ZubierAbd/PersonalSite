@@ -40,7 +40,7 @@ const BlogPage = ({ data }) => (
           <h5 style={{ marginBottom: `0` }} className="article-title">
             <Link
               style={{ background: `none`, color: `#323232` }}
-              to={post.node.frontmatter.path}
+              to={`/` + post.node.frontmatter.path}
             >
               {" "}
               <span
@@ -60,7 +60,7 @@ const BlogPage = ({ data }) => (
             {post.node.frontmatter.date}
           </h4>
           <p>{post.node.frontmatter.summary}</p>{" "}
-          <Link style={{ background: `none` }} to={post.node.frontmatter.path}>
+          <Link style={{ background: `none` }} to={`/` + post.node.frontmatter.path}>
             {" "}
             <button>Read more </button>
           </Link>
