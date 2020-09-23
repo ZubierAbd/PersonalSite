@@ -12,13 +12,11 @@
 
 a {
   background: none;
-  color: #ffffff;
-  text-shadow: 1px 1px rgba(0,0,0,0.2);
+  color: #111111;
 }
 
 a:visited {
-  color: #eeeeee;
-  text-shadow: 1px 1px rgba(0,0,0,0.2);
+  color: #111111;
 }
 
 .story-icon:hover {
