@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import {
@@ -41,6 +41,8 @@ const assignIcon = name => {
 
 const storyPostTemplate = ({ data }) => {
   let post = data.markdownRemark
+  console.log('Story Post Template')
+  console.log(data)
   if (post == null) {
     return (
       <div>

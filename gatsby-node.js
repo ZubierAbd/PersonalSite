@@ -29,25 +29,21 @@ exports.createPages = async ({ graphql, actions }) => {
 
     ///Create blog post pages
     const posts = result.data.allMarkdownRemark.edges
-
+    console.log(blogPostTemplate)
+    console.log(storyPostTemplate)
     posts.forEach(edge => {
-      let path = edge.node.frontmatter.path
+      // let path = edge.node.frontmatter.path
       let type = edge.node.frontmatter.type
+      let location = edge.node.frontmatter.path;
       if (type != null && type == "story") {
         createPage({
-          path,
-          component: storyPostTemplate,
-          context: {
-            path,
-          },
+          path: location,
+          component: storyPostTemplate
         })
       } else {
         createPage({
-          path,
-          component: blogPostTemplate,
-          context: {
-            path,
-          },
+          path: location,
+          component: blogPostTemplate
         })
       }
     })
