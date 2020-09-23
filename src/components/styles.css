@@ -12,11 +12,13 @@
 
 a {
   background: none;
-  color: #111111;
+  color: #ffffff;
+  text-shadow: 1px 1px rgba(0,0,0,0.2);
 }
 
 a:visited {
-  color: #111111;
+  color: #eeeeee;
+  text-shadow: 1px 1px rgba(0,0,0,0.2);
 }
 
 .story-icon:hover {
@@ -81,5 +83,5 @@ nav a {
 .tech-container .techy {
   /* width: 20vw; */
   flex: 0 1 150px;
-  font-size: 70px;
+  font-size: 55px;
 }
