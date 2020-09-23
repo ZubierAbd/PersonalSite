@@ -32,6 +32,7 @@ const assignIcon = name => {
 
 const blogPostTemplate = ({ data }) => {
   let post = data.markdownRemark
+  console.log(post)
   if (post == null) {
     return (
       <div>
@@ -79,8 +80,8 @@ const blogPostTemplate = ({ data }) => {
 export default blogPostTemplate
 
 export const blogQuery = graphql`
-  query BlogPostByPath($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+  query BlogPostByPath($slug: String!) {
+    markdownRemark(frontmatter: { path: { eq: $slug } }) {
       id
       excerpt
       html

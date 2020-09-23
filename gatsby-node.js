@@ -38,12 +38,18 @@ exports.createPages = async ({ graphql, actions }) => {
       if (type != null && type == "story") {
         createPage({
           path: location,
-          component: storyPostTemplate
+          component: storyPostTemplate,
+          context: {
+            slug: location
+          },
         })
       } else {
         createPage({
           path: location,
-          component: blogPostTemplate
+          component: blogPostTemplate,
+          context: {
+            slug: location
+          },
         })
       }
     })

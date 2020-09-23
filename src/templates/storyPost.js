@@ -91,8 +91,8 @@ const storyPostTemplate = ({ data }) => {
 export default storyPostTemplate
 
 export const blogQuery = graphql`
-  query StoryPostByPath($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
+  query StoryPostByPath($slug: String!) {
+    markdownRemark(frontmatter: { path: { eq: $slug } }) {
       id
       excerpt
       html

@@ -12,7 +12,7 @@ const IndexPage = () => (
         <h4>
           My name is <kbd>Zubier</kbd>.
         </h4>
-        <div class="key">
+        <div className="key">
           <p>Welcome to my little corner of the internet</p>
           <p>
             I am a fullstack developer working in <kbd>Toronto</kbd>
