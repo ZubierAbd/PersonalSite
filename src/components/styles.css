@@ -83,3 +83,7 @@ nav a {
   flex: 0 1 150px;
   font-size: 55px;
 }
+
+.TechCard{
+  margin: 0 1em  ;
+}
