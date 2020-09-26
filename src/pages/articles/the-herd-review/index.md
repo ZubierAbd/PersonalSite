@@ -8,8 +8,12 @@ icon: "book"
 summary: "A book review for the book The Herd - published in the Daily Star"
 ---
 
-**Originally written sometime in 2018**
+**this article was originally published on the Daily Star on 24th September 2020.** 
+
+
+
 [Read the original here](https://www.thedailystar.net/book-reviews/news/hot-mess-andrea-bartzs-the-herd-1966645)
+
 
 When it comes to book reviews, I have found an interesting paradox—the better a book is, the easier it becomes to write about. Words flow effortlessly, superlatives pop out of the ground like errant weeds and writing is a breeze. The same can also be said for the books which make you drag your nails along the wall. The difficult part is the book in the middle: the book is not nondescript enough to be completely forgettable, yet one that defies description. 
 
