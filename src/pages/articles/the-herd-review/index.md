@@ -8,7 +8,7 @@ icon: "book"
 summary: "A book review for the book The Herd - published in the Daily Star"
 ---
 
-**this article was originally published on The Daily Star on 24th September 2020.** 
+**This article was originally published on The Daily Star on 24th September 2020.** 
 
 
 
